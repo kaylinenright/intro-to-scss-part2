@@ -1,0 +1,59 @@
+/*Imports*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+html {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+.border, ul {
+  border: 1px solid #ccc;
+}
+
+.border p, ul p {
+  color: #3498db;
+}
+
+@media only screen and (min-width: 30em) {
+  .border, ul {
+    border-color: #3498db;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+  .border, ul {
+    border-color: #666666;
+  }
+}
+
+.primary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #3498db;
+}
+
+.primary-btn:hover {
+  background: #196090;
+}
+
+.secondary-btn {
+  display: inline-block;
+  margin: 1em;
+  padding: .5em 1em;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #fff;
+  background: #3498db;
+}
+
+.secondary-btn:hover {
+  background: #196090;
+}
+
+/*# sourceMappingURL=style.css.map */

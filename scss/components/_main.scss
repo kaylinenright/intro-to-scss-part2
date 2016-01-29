@@ -1,0 +1,32 @@
+html {
+    font-family: $raleway;
+}
+
+h1 {
+        font-family: $raleway;
+}
+
+.border{
+  border: 1px solid #ccc;
+    p{
+      color: $blue;
+    }
+    @media only screen and (min-width: 30em){
+        border-color: $blue;
+    }
+    @media only screen and (min-width: 60em){
+        border-color: $grey-dark;
+    }
+}
+
+.primary-btn{
+    @include button($blue);
+}
+
+.secondary-btn{
+    @include button($blue);
+}
+
+ul {
+    @extend .border;
+}
